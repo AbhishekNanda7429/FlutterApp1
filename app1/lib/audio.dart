@@ -1,13 +1,13 @@
-"AUDIO.DART"
+//"AUDIO.DART"//
 
 import 'package:flutter/material.dart';
-import 'package:project1/UI/select.dart';
-import 'package:project1/UI/track1.dart';
-import 'package:project1/UI/track2.dart';
-import 'package:project1/UI/track3.dart';
-import 'package:project1/UI/track4.dart';
-import '../home.dart';
-
+//import 'package:project1/UI/select.dart';
+//import 'package:project1/UI/track1.dart';
+//import 'package:project1/UI/track2.dart';
+//import 'package:project1/UI/track3.dart';
+//import 'package:project1/UI/track4.dart';
+import 'home.dart';
+import 'package:app1/select.dart';
 
 function3() {
   var list1 = ListTile(
@@ -36,9 +36,7 @@ function3() {
       contentPadding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       onTap: track1);
 
-
   var div = Divider(color: Colors.red, indent: 15, endIndent: 15);
-
 
   var list2 = ListTile(
       leading: Container(
@@ -66,9 +64,7 @@ function3() {
       contentPadding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       onTap: track2);
 
-
   var div2 = Divider(color: Colors.red, indent: 15, endIndent: 15);
-
 
   var list3 = ListTile(
       leading: Container(
@@ -96,9 +92,7 @@ function3() {
       contentPadding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       onTap: track3);
 
-
   var div3 = Divider(color: Colors.red, indent: 15, endIndent: 15);
-
 
   var list4 = ListTile(
       leading: Container(
@@ -126,9 +120,7 @@ function3() {
       contentPadding: EdgeInsets.symmetric(horizontal: 25, vertical: 5),
       onTap: track4);
 
-
   var div4 = Divider(color: Colors.red, indent: 15, endIndent: 15);
-
 
   var background = Container(
       height: double.infinity,
@@ -150,7 +142,6 @@ function3() {
               image: AssetImage('assets/futuristicphoto.jpg'),
               fit: BoxFit.cover)));
 
-
   var myappbar = AppBar(
     title: Text('Music Library'),
     leading: IconButton(icon: Icon(Icons.arrow_back), onPressed: function2),
@@ -164,10 +155,10 @@ function3() {
     appBar: myappbar,
     body: background,
   );
+  // ignore: non_constant_identifier_names
   var Mapp2 = MaterialApp(
     home: canvas1,
     debugShowCheckedModeBanner: false,
   );
   runApp(Mapp2);
 }
-

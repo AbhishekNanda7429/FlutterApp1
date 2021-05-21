@@ -1,14 +1,15 @@
 "VIDEO.DART"
 
+import 'package:app1/select.dart';
 import 'package:flutter/material.dart';
-import 'package:project1/UI/select.dart';
-import 'package:project1/UI/track1.dart';
-import 'package:project1/UI/track2.dart';
-import 'package:project1/UI/track3.dart';
-import 'package:project1/UI/track4.dart';
-import 'package:project1/UI/videotrack1.dart';
-import 'package:project1/UI/videotrack2.dart';
-import 'package:project1/UI/videotrack3.dart';
+//import 'package:project1/UI/select.dart';
+//import 'package:project1/UI/track1.dart';
+//import 'package:project1/UI/track2.dart';
+//import 'package:project1/UI/track3.dart';
+//import 'package:project1/UI/track4.dart';
+//import 'package:project1/UI/videotrack1.dart';
+//import 'package:project1/UI/videotrack2.dart';
+//import 'package:project1/UI/videotrack3.dart';
 import 'home.dart';
 
 
