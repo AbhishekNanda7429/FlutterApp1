@@ -6,7 +6,7 @@ import 'package:project1/UI/track1.dart';
 import 'package:project1/UI/track2.dart';
 import 'package:project1/UI/track3.dart';
 import 'package:project1/UI/track4.dart';
-import 'home.dart';
+import '../home.dart';
 
 
 function3() {
