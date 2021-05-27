@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'select.dart';
 
 function1() {
+  // ignore: non_constant_identifier_names
   var Mapp = (MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
