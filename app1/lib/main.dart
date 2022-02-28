@@ -28,7 +28,7 @@ function1() {
                   style: TextStyle(
                       color: Colors.white, fontStyle: FontStyle.italic),
                 ),
-                onPressed: function2,
+                onPressed: () {},
               ))
             ],
           )),
